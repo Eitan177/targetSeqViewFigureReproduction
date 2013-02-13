@@ -1,2 +1,2 @@
-export(ViewAndScore, formatPlot, alignView, normalAlign)
-
+## run reproduceFigs.R code, available from  extdata folder to reproduce our figures
+exportPattern("^[[:alpha:]]+")

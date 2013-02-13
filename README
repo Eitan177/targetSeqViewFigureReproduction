@@ -1,0 +1,8 @@
+The purpose of this code is to reproduce the figures from our paper accompanying
+the release of the targetSeqView package (Halper-Stromberg, 2013).
+
+To setup, first install the targetSeqView package. Second, install this
+code as an R package and then run the source code file, reproduceFigs.R,  located 
+in the extdata folder. All of our data exists in the extdata folder, including
+bam files, and results from GASV,HYDRA,and VariationHunter.
+
