@@ -1,0 +1,61 @@
+HERE
+2161
+JJ
+HH
+Inside_Start:106466411 Inside_End:106466942 OutSide_Start:106466954 Oustide_End:106467839 chro:chr14 SVtype:2 sup:56 Avg_Span:680 sumProb:inf
+Inside_Start:106477988 Inside_End:106478151 OutSide_Start:106829626 Oustide_End:106829683 chro:chr14 SVtype:2 sup:18 Avg_Span:351583 sumProb:inf
+Inside_Start:106559377 Inside_End:106559528 OutSide_Start:107178789 Oustide_End:107178859 chro:chr14 SVtype:2 sup:12 Avg_Span:619355 sumProb:inf
+Inside_Start:106691478 Inside_End:106691690 OutSide_Start:106993857 Oustide_End:106994045 chro:chr14 SVtype:2 sup:2 Avg_Span:302367 sumProb:inf
+Inside_Start:106691283 Inside_End:106691485 OutSide_Start:107183251 Oustide_End:107183280 chro:chr14 SVtype:2 sup:13 Avg_Span:491857 sumProb:inf
+Inside_Start:106785190 Inside_End:106785613 OutSide_Start:106810321 Oustide_End:106810576 chro:chr14 SVtype:2 sup:11 Avg_Span:24948 sumProb:inf
+Inside_Start:106798289 Inside_End:106798403 OutSide_Start:107106291 Oustide_End:107106491 chro:chr14 SVtype:2 sup:9 Avg_Span:308061 sumProb:inf
+Inside_Start:106805025 Inside_End:106805158 OutSide_Start:107280894 Oustide_End:107280922 chro:chr14 SVtype:2 sup:2 Avg_Span:475816 sumProb:inf
+Inside_Start:107048271 Inside_End:107048621 OutSide_Start:107130909 Oustide_End:107130959 chro:chr14 SVtype:2 sup:29 Avg_Span:82436 sumProb:inf
+Inside_Start:107057126 Inside_End:107057347 OutSide_Start:107275811 Oustide_End:107275916 chro:chr14 SVtype:2 sup:15 Avg_Span:218605 sumProb:inf
+Inside_Start:142099495 Inside_End:142099530 OutSide_Start:142247281 Oustide_End:142247309 chro:chr7 SVtype:2 sup:2 Avg_Span:147782 sumProb:inf
+Inside_Start:142111306 Inside_End:142111350 OutSide_Start:142168374 Oustide_End:142168375 chro:chr7 SVtype:2 sup:3 Avg_Span:57053 sumProb:inf
+Inside_Start:106372674 Inside_End:106372833 OutSide_Start:106382438 Oustide_End:106382732 chro:chr14 SVtype:2 sup:49 Avg_Span:9763 sumProb:49.000000
+Inside_Start:107042126 Inside_End:107042371 OutSide_Start:107083250 Oustide_End:107083508 chro:chr14 SVtype:2 sup:76 Avg_Span:41030 sumProb:46.178856
+Inside_Start:107087129 Inside_End:107087293 OutSide_Start:107099199 Oustide_End:107099537 chro:chr14 SVtype:2 sup:18 Avg_Span:12122 sumProb:15.105947
+Inside_Start:106466363 Inside_End:106466948 OutSide_Start:106467400 Oustide_End:106467875 chro:chr14 SVtype:2 sup:17 Avg_Span:905 sumProb:14.996330
+Inside_Start:38369258 Inside_End:38369693 OutSide_Start:38369695 Oustide_End:38370142 chro:chr7 SVtype:2 sup:12 Avg_Span:444 sumProb:12.000000
+Inside_Start:89132093 Inside_End:89132275 OutSide_Start:89384685 Oustide_End:89384738 chro:chr2 SVtype:2 sup:8 Avg_Span:252521 sumProb:7.337291
+Inside_Start:23029543 Inside_End:23029868 OutSide_Start:23090591 Oustide_End:23090900 chro:chr22 SVtype:2 sup:9 Avg_Span:60904 sumProb:6.000021
+Inside_Start:106477873 Inside_End:106478162 OutSide_Start:106780464 Oustide_End:106780591 chro:chr14 SVtype:2 sup:13 Avg_Span:302462 sumProb:5.455383
+Inside_Start:106815392 Inside_End:106815607 OutSide_Start:107048502 Oustide_End:107048725 chro:chr14 SVtype:2 sup:12 Avg_Span:233023 sumProb:5.177655
+Inside_Start:38406896 Inside_End:38407188 OutSide_Start:38407368 Oustide_End:38407607 chro:chr7 SVtype:2 sup:5 Avg_Span:453 sumProb:4.998874
+Inside_Start:1278349 Inside_End:1278597 OutSide_Start:1278769 Oustide_End:1279016 chro:chr5 SVtype:2 sup:5 Avg_Span:455 sumProb:4.987400
+Inside_Start:22962461 Inside_End:22962645 OutSide_Start:22962877 Oustide_End:22963055 chro:chr14 SVtype:2 sup:4 Avg_Span:411 sumProb:4.000000
+Inside_Start:22966215 Inside_End:22966412 OutSide_Start:22966692 Oustide_End:22966843 chro:chr14 SVtype:2 sup:4 Avg_Span:461 sumProb:4.000000
+Inside_Start:106945126 Inside_End:106945256 OutSide_Start:106945542 Oustide_End:106945781 chro:chr14 SVtype:2 sup:4 Avg_Span:459 sumProb:4.000000
+Inside_Start:106967073 Inside_End:106967073 OutSide_Start:107136729 Oustide_End:107136729 chro:chr14 SVtype:2 sup:4 Avg_Span:169656 sumProb:4.000000
+Inside_Start:46705470 Inside_End:46705573 OutSide_Start:46709358 Oustide_End:46709393 chro:chr3 SVtype:2 sup:4 Avg_Span:3854 sumProb:4.000000
+Inside_Start:38361650 Inside_End:38361981 OutSide_Start:38362077 Oustide_End:38362389 chro:chr7 SVtype:2 sup:4 Avg_Span:424 sumProb:4.000000
+Inside_Start:141999016 Inside_End:141999160 OutSide_Start:141999436 Oustide_End:141999594 chro:chr7 SVtype:2 sup:4 Avg_Span:423 sumProb:4.000000
+Inside_Start:106478153 Inside_End:106478211 OutSide_Start:106877684 Oustide_End:106877947 chro:chr14 SVtype:2 sup:5 Avg_Span:399588 sumProb:3.603153
+Inside_Start:38397466 Inside_End:38397921 OutSide_Start:38397948 Oustide_End:38398376 chro:chr7 SVtype:2 sup:10 Avg_Span:437 sumProb:3.249441
+Inside_Start:23271462 Inside_End:23271462 OutSide_Start:23271871 Oustide_End:23271872 chro:chr20 SVtype:2 sup:3 Avg_Span:409 sumProb:3.001352
+Inside_Start:22447072 Inside_End:22447124 OutSide_Start:22447478 Oustide_End:22447556 chro:chr14 SVtype:2 sup:3 Avg_Span:416 sumProb:3.000000
+Inside_Start:22975020 Inside_End:22975421 OutSide_Start:22975432 Oustide_End:22975886 chro:chr14 SVtype:2 sup:3 Avg_Span:429 sumProb:3.000000
+Inside_Start:106501665 Inside_End:106501814 OutSide_Start:106502108 Oustide_End:106502235 chro:chr14 SVtype:2 sup:3 Avg_Span:428 sumProb:3.000000
+Inside_Start:106518133 Inside_End:106518345 OutSide_Start:107183309 Oustide_End:107183498 chro:chr14 SVtype:2 sup:3 Avg_Span:665168 sumProb:3.000000
+Inside_Start:106832954 Inside_End:106833232 OutSide_Start:106833358 Oustide_End:106833685 chro:chr14 SVtype:2 sup:3 Avg_Span:426 sumProb:3.000000
+Inside_Start:106925559 Inside_End:106925637 OutSide_Start:106925983 Oustide_End:106926070 chro:chr14 SVtype:2 sup:3 Avg_Span:422 sumProb:3.000000
+Inside_Start:106986611 Inside_End:106986815 OutSide_Start:106987034 Oustide_End:106987291 chro:chr14 SVtype:2 sup:3 Avg_Span:444 sumProb:3.000000
+Inside_Start:107093211 Inside_End:107093298 OutSide_Start:107093625 Oustide_End:107093744 chro:chr14 SVtype:2 sup:3 Avg_Span:435 sumProb:3.000000
+Inside_Start:107169457 Inside_End:107169938 OutSide_Start:107169957 Oustide_End:107170381 chro:chr14 SVtype:2 sup:3 Avg_Span:463 sumProb:3.000000
+Inside_Start:107273308 Inside_End:107273633 OutSide_Start:107273723 Oustide_End:107274094 chro:chr14 SVtype:2 sup:3 Avg_Span:431 sumProb:3.000000
+Inside_Start:22415532 Inside_End:22415626 OutSide_Start:22415955 Oustide_End:22416048 chro:chr22 SVtype:2 sup:3 Avg_Span:419 sumProb:3.000000
+Inside_Start:23263056 Inside_End:23263451 OutSide_Start:23263491 Oustide_End:23263895 chro:chr22 SVtype:2 sup:3 Avg_Span:451 sumProb:3.000000
+Inside_Start:38369704 Inside_End:38369828 OutSide_Start:38370125 Oustide_End:38370239 chro:chr7 SVtype:2 sup:3 Avg_Span:419 sumProb:3.000000
+Inside_Start:38379898 Inside_End:38380143 OutSide_Start:38380308 Oustide_End:38380559 chro:chr7 SVtype:2 sup:3 Avg_Span:415 sumProb:3.000000
+Inside_Start:142116367 Inside_End:142116506 OutSide_Start:142116784 Oustide_End:142116952 chro:chr7 SVtype:2 sup:3 Avg_Span:426 sumProb:3.000000
+Inside_Start:38384305 Inside_End:38384495 OutSide_Start:38384745 Oustide_End:38384928 chro:chr7 SVtype:2 sup:3 Avg_Span:431 sumProb:2.999997
+Inside_Start:106466342 Inside_End:106466488 OutSide_Start:106467394 Oustide_End:106467796 chro:chr14 SVtype:2 sup:3 Avg_Span:1212 sumProb:2.998751
+Inside_Start:91678958 Inside_End:91679327 OutSide_Start:91679430 Oustide_End:91679766 chro:chr2 SVtype:2 sup:10 Avg_Span:429 sumProb:2.988680
+Inside_Start:106798317 Inside_End:106798484 OutSide_Start:106798736 Oustide_End:106798901 chro:chr14 SVtype:2 sup:5 Avg_Span:430 sumProb:2.789586
+Inside_Start:89416738 Inside_End:89416825 OutSide_Start:90121695 Oustide_End:90122224 chro:chr2 SVtype:4 sup:8 Avg_Span:705376 sumProb:2.462040
+Inside_Start:89513156 Inside_End:89513220 OutSide_Start:90249329 Oustide_End:90249423 chro:chr2 SVtype:5 sup:8 Avg_Span:736183 sumProb:2.273266
+Inside_Start:17384586 Inside_End:17384742 OutSide_Start:17385005 Oustide_End:17385221 chro:chr22 SVtype:2 sup:9 Avg_Span:447 sumProb:2.075414
+Inside_Start:142013524 Inside_End:142013524 OutSide_Start:142045808 Oustide_End:142045808 chro:chr7 SVtype:2 sup:2 Avg_Span:32284 sumProb:2.000352
+TOTAL 743
