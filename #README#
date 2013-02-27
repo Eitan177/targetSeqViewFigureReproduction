@@ -1,0 +1,26 @@
+The purpose of this code is to reproduce the figures from our paper accompanying
+the release of the targetSeqView package (Halper-Stromberg, 2013), and to provide
+the underlying data which we used to develop our method. This code was
+developed on linux and has not been tested on other systems.
+
+To setup:
+1) install targetSeqView as an R package (available from https://github.com/Eitan177/targetSeqView)
+2) install this code as an R package
+3) load this package in R and run the source code file, reproduceFigs.R,  located 
+   in the extdata folder
+
+All of our data exists in the extdata folder, including:
+    full alignment bam files (1320KB00[01][0-9].bam)
+    multiple alignment bam files for discordant read pairs (1320KB00[01][0-9]MulitpleAlnsort.bam)
+    bam index files (*bai)
+    results from GASV (*clusters), HYDRA (*final), and VariationHunter (*SV)
+    repeat element files (repeatMaskerbaits.txt, genomicSuperDups.txt)
+    target capture bait loci (sureselectformat.bed)
+    events failing/passing validation (NotValidated*txt, Validated*txt)
+    events representing canonical V(D)J (1211canonicalNotValidated.txt)
+    V(D)J elements involved in validated/canonical events (regVDJ.txt,irregVDJ.txt)
+    alignability wig file (wgEncodeCrgMapabilityAlign100mer.bigWig)
+
+ 
+
+
