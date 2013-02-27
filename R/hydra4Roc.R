@@ -37,7 +37,7 @@ function(getTop=FALSE){
     }
 
     subjectreturns=list()
-    retrem=IRanges()
+    assign("retrem",IRanges(),envir=.GlobalEnv)
     for(ii in 1:5){
         ovs=findOverlaps(rngs[[ii]],hydrarngs)
         rngnames=seqnames(rngs[[ii]][queryHits(ovs)])
@@ -47,25 +47,28 @@ function(getTop=FALSE){
         sovs=IRanges::split(ovs,(queryHits(ovs)-1)%/%2)
 
         subjectreturns[[ii]]=IRanges::lapply(sovs,function(x){ss=split(subjectHits(x),queryHits(x));firsts=IRanges(start=ss[[1]]-(ss[[1]]-1)%%2,width=2);
-                                                     if(length(ss)==1){print('hydra junctions not found');seconds=firsts;
+                                                     if(length(ss)==1){print('hydra junctions not found');seconds=firsts;ret=IRanges()
                                                                    }else{
-                                                                       seconds=IRanges(start=ss[[2]]-(ss[[2]]-1)%%2,width=2)};
+                                                                       seconds=IRanges(start=ss[[2]]-(ss[[2]]-1)%%2,width=2);#};
                                                      ff=findOverlaps(firsts,seconds);
                                                      ret=firsts[queryHits(ff)]
                                                      if(nrow(IRanges::as.matrix(ff))!=1){
                                                          print('more than 1 loc will be removed')
                                                      }
                                                      if(length(ret)>1){
-                                                         matchret=na.omit(IRanges::match(get("retrem"),ret))
+                                                         matchret=na.omit(IRanges::match(get("retrem",envir=.GlobalEnv),ret))
                                                          if(length(matchret)>0){
                                                              print('omitting duplicated hit')
                                                              ret = ret[-matchret]
                                                          }
                                                          ret=ret[which.max(as.numeric(elementMetadata(hydrarngs[start(ret)])[,2]))]
                                                          assign("retrem",c(retrem,ret),envir=.GlobalEnv)
-                                                     }
+                                                     }}
                                                      ret
                                                  })
+
+tt=table(((Rle(queryHits(ovs)))@values-1)%/%2);names(subjectreturns[[ii]])=paste(names(tt),tt,sep='.')
+subjectreturns[[ii]] <- subjectreturns[[ii]][as.numeric(gsub('.+\\.','',names(subjectreturns[[ii]])))>1]
 
         print(length(rngs[[ii]]))
         print(length(unique(queryHits(ovs))))
@@ -74,14 +77,14 @@ function(getTop=FALSE){
 
 
 
-    ovsN=do.call(c,(unlist(subjectreturns[1:2])))
+    ovsN=do.call(c,(unname(unlist(subjectreturns[1:2]))))
     elementMetadata(hydrarngs[unique(sort(c(start(ovsN),end(ovsN))))])[,1]='N'
 
-    ovsV=do.call(c,(unlist(subjectreturns[3:4])))
+    ovsV=do.call(c,(unname(unlist(subjectreturns[3:4]))))
     elementMetadata(hydrarngs[unique(sort(c(start(ovsV),end(ovsV))))])[,1]='V'
 
 
-    ovsP=do.call(c,(unlist(subjectreturns[5])))
+    ovsP=do.call(c,(unname(unlist(subjectreturns[5]))))
     elementMetadata(hydrarngs[unique(sort(c(start(ovsP),end(ovsP))))])[,1]='P'
 
     ## added putative V(D)J

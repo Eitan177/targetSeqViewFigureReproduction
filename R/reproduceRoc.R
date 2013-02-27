@@ -13,8 +13,11 @@ function(ret){
 
     ## I have a score for all 26 tp junctions, the others return scores for 25 or less tp junctions.
     xnumMine=xnumHydra=38;ynumMine=26
-    xnumGasv=36; ynumGasv=ynumHydra=25
-    xnumVH=21; ynumVH=12
+    #xnumGasv=36; ynumGasv=ynumHydra=25
+    #xnumVH=21; ynumVH=12
+    xnumVH=19; ynumVH=11
+    xnumGasv=33; ynumGasv=13;
+    ynumHydra=25
 
 
     ## format the dataFrame for ggplot
